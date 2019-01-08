@@ -10,12 +10,15 @@ Plug 'haishanh/night-owl.vim'
 Plug 'w0rp/ale'
 Plug 'elixir-editors/vim-elixir'
 Plug 'leafgarland/typescript-vim'
+Plug 'lumiliet/vim-twig'
 Plug 'mxw/vim-jsx'
 Plug 'tpope/vim-surround'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-commentary'
 Plug 'scrooloose/nerdtree'
+Plug 'StanAngeloff/php.vim'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'plasticboy/vim-markdown'
 call plug#end()
@@ -27,6 +30,10 @@ endif
 
 syntax enable
 colorscheme night-owl
+
+if &term=~ '256color'
+ set t_ut=
+endif
 
 " ALE Linters
 let g:ale_linters = {}
@@ -54,6 +61,26 @@ set backspace=indent,eol,start
 
 " Show line numbers
 set number
+
+" Set tab width to 2
+set tabstop=2
+set shiftwidth=2
+set smartindent
+
+" Use system clipboard
+set clipboard=unnamed
+
+" Move between buffers
+map <C-Left> <Esc>:bprev<CR>
+map <C-Right> <Esc>:bnext<CR>
+
+" Switch between splits
+map <C-h> <C-W>h
+map <C-l> <C-W>l
+
+" Prevent deselection after shift
+vnoremap > >gv
+vnoremap < <gv
 
 " Setup keybinding for toggling nerdtree
 map <C-b> :NERDTreeToggle<CR>

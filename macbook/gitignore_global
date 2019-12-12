@@ -311,6 +311,8 @@ Session.vim
 tags
 # Persistent undo
 [._]*.un~
+# Projectionist
+.projections.json
 
 ### VisualStudioCode ###
 .vscode/*

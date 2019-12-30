@@ -32,7 +32,7 @@ if (has("termguicolors"))
 endif
 
 syntax enable
-colorscheme dracula
+colorscheme night-owl
 
 if &term=~ '256color'
  set t_ut=
@@ -163,8 +163,7 @@ nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
 
 " Airline setup
 let g:airline_powerline_fonts = 1
-let g:airline#extensions#ale#enabled = 1
-let g:airline_theme = 'dracula'
+let g:airline_theme = 'night_owl'
 
 " Get the delete button working
 set backspace=indent,eol,start
@@ -194,6 +193,7 @@ vnoremap < <gv
 
 " NERDTree config
 let NERDTreeShowHidden=1
+let NERDTreeRespectWildIgnore=1
 
 " Setup keybinding for toggling nerdtree
 map <C-b> :NERDTreeToggle<CR>

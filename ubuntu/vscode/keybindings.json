@@ -1,0 +1,27 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+  {
+    "key": "alt+k alt+b",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "ctrl+b",
+    "command": "-workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "alt+k alt+e",
+    "command": "workbench.view.explorer"
+  },
+  {
+    "key": "alt+k alt+v",
+    "command": "workbench.view.scm"
+  },
+  {
+    "key": "alt+k alt+d",
+    "command": "workbench.view.debug"
+  },
+  {
+    "key": "alt+k alt+x",
+    "command": "workbench.extensions.action.showInstalledExtensions"
+  }
+]

@@ -1,0 +1,97 @@
+{
+  "telemetry.enableTelemetry": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "vim.useSystemClipboard": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["f", "d"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": [">"],
+      "commands": ["editor.action.indentLines"]
+    },
+    {
+      "before": ["<"],
+      "commands": ["editor.action.outdentLines"]
+    }
+  ],
+  "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.tabSize": 2,
+  "editor.fontSize": 15,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.formatOnSave": true,
+  "files.associations": {
+    "*.html": "html",
+    "*.html.leex": "HTML (EEx)"
+  },
+  "emmet.includeLanguages": {
+    "twig": "html",
+    "njk": "html",
+    "HTML (EEx)": "html"
+  },
+  "git.autofetch": true,
+  "debug.console.fontSize": 14,
+  "terminal.integrated.fontSize": 14,
+  "terminal.explorerKind": "external",
+  "terminal.external.osxExec": "iTerm.app",
+  "explorer.confirmDragAndDrop": false,
+  "auto-close-tag.activationOnLanguage": [
+    "xml",
+    "php",
+    "blade",
+    "ejs",
+    "html",
+    "jinja",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "plaintext",
+    "markdown",
+    "vue",
+    "liquid",
+    "erb",
+    "lang-cfml",
+    "cfml",
+    "HTML",
+    "HTML (Eex)",
+    "HTML (EEx)",
+    "HTML (Twig)",
+    "twig",
+    "Twig",
+    "Nunjucks",
+    "njk",
+    "nunjucks"
+  ],
+  "prettier.disableLanguages": [
+    "html",
+    "HTML",
+    "njk",
+    "Nunjucks",
+    "nunjucks",
+    "HTML (EEx)"
+  ],
+  "workbench.colorTheme": "Yarra Valley",
+  "twig-language-2.forceIndent": true,
+  "twig-language-2.functionName": true,
+  "twig-language-2.elseLine": true,
+  "twig-language-2.cssInsertLines": true,
+  "twig-language-2.commentLine": true,
+  "twig-language-2.spaceClose": true,
+  "twig-language-2.unformatted": true,
+  "[njk]": {
+    "editor.formatOnSave": false
+  },
+  "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+  "php-cs-fixer.lastDownload": 1585803586163,
+  "workbench.activityBar.visible": false,
+  "workbench.editor.showTabs": false,
+  "workbench.sideBar.location": "right",
+  "workbench.statusBar.visible": false,
+  "editor.minimap.enabled": false
+}

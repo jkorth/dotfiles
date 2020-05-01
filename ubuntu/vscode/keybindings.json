@@ -23,5 +23,25 @@
   {
     "key": "alt+k alt+x",
     "command": "workbench.extensions.action.showInstalledExtensions"
+  },
+  {
+    "key": "alt+t",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "shift+alt+t",
+    "command": "workbench.action.terminal.new"
+  },
+  {
+    "key": "ctrl+shift+`",
+    "command": "-workbench.action.terminal.new"
+  },
+  {
+    "key": "alt+k alt+n",
+    "command": "workbench.action.terminal.focusNext"
+  },
+  {
+    "key": "alt+k alt+p",
+    "command": "workbench.action.terminal.focusPrevious"
   }
 ]

@@ -46,7 +46,6 @@
     "vim.useSystemClipboard": true,
     "vim.enableNeovim": true,
     "vim.neovimPath": "/usr/bin/nvim",
-    "workbench.iconTheme": "material-icon-theme",
     "editor.fontFamily": "Fira Code, Noto Color Emoji",
     "editor.fontLigatures": true,
     "files.trimTrailingWhitespace": true,
@@ -184,22 +183,18 @@
             }
         ]
     },
-    "terminal.integrated.fontFamily": "Hack",
+    "terminal.integrated.fontFamily": "Fira Code",
     "gitlens.views.fileHistory.enabled": true,
     "gitlens.views.lineHistory.enabled": true,
     "terminal.integrated.fontSize": 15,
     "terminal.explorerKind": "external",
-    "eslint.packageManager": "yarn",
-    "workbench.colorTheme": "Yarra Valley",
+    "workbench.colorTheme": "Dracula",
     "editor.fontSize": 15,
-    "eslint.codeAction.disableRuleComment": {
-        "enable": true,
-        "location": "sameLine"
-    },
     "explorer.autoReveal": false,
-    "terminal.integrated.shell.linux": "/bin/zsh",
+    "terminal.integrated.shell.linux": "/usr/bin/zsh",
     "files.associations": {
-        "*.html": "html"
+        "*.html": "html",
+        "*.html.leex": "HTML (EEx)"
     },
     "emmet.includeLanguages": {
         "twig": "html"
@@ -208,6 +203,5 @@
     "workbench.activityBar.visible": false,
     "workbench.editor.showTabs": false,
     "workbench.sideBar.location": "right",
-    "workbench.statusBar.visible": false,
     "editor.minimap.enabled": false
 }

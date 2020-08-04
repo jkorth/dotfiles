@@ -11,10 +11,7 @@ Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'arcticicestudio/nord-vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'elixir-editors/vim-elixir'
-Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
-Plug 'leafgarland/typescript-vim'
 Plug 'lumiliet/vim-twig'
-Plug 'mxw/vim-jsx'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'tpope/vim-commentary'
@@ -32,7 +29,7 @@ if (has("termguicolors"))
 endif
 
 syntax enable
-colorscheme night-owl
+colorscheme dracula
 
 if &term=~ '256color'
  set t_ut=
@@ -163,7 +160,7 @@ nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
 
 " Airline setup
 let g:airline_powerline_fonts = 1
-let g:airline_theme = 'night_owl'
+let g:airline_theme = 'dracula'
 
 " Get the delete button working
 set backspace=indent,eol,start
@@ -195,7 +192,7 @@ vnoremap < <gv
 let NERDTreeShowHidden=1
 let NERDTreeRespectWildIgnore=1
 
-" Setup keybinding for toggling nerdtree
+" - Setup keybinding for toggling nerdtree
 map <C-b> :NERDTreeToggle<CR>
 
 " Setup alternative keybinding for getting back to normal mode
